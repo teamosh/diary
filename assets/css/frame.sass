@@ -9,11 +9,8 @@ html
 body
   box-shadow: 0 0 .3em lighten($dark, 65%)
   background-image: url('/assets/images/body.gif')
-  background-size: 50% auto  // Adjust width to 50%, height adjusts automatically
-  background-repeat: no-repeat  // Prevent tiling
-  background-position: center top  // Align it properly
-  background-attachment: fixed  // Keep it fixed while scrolling
-  opacity: 1  // Ensure only background is affected by opacity
+  //background-size: cover
+  opacity: 0.5
 
 // Header Styling
 body > header, body > footer
@@ -23,15 +20,15 @@ body > header, body > footer
 // Add a background image to the header
 body > header
   background-image: url('/assets/images/header.gif') // Adjust path if needed
-  background-size: 50% auto  // Make it full width, height auto
+  background-size: cover
+  background-position: center
+  height: 75px // Adjust height as needed
+body > footer
+  background-image: url('/assets/images/footer.gif') // Adjust path if needed
+  background-size: cover
   background-position: center
   height: 75px // Adjust height as needed
 
-body > footer
-  background-image: url('/assets/images/footer.gif') // Adjust path if needed
-  background-size: 50% auto  // Make it full width
-  background-position: center
-  height: 75px // Adjust height as needed
 
 // Adjust content area to avoid overlap
 main
