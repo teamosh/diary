@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {url: "https://github.com/LindomarB/Projeto-Goggins-/blob/master/Can_t-Hurt-Me-David-Goggins.pdf, title: "credo"}
+  - {url: "https://github.com/LindomarB/Projeto-Goggins-/blob/master/Can_t-Hurt-Me-David-Goggins.pdf", title: "credo"}
   - {title: "Posts", file: "posts.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
