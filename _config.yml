@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/teamosh"}
-  - {title: Telegram, icon: telegram, url: "http://t.me/teamosh"}
+  - {title: Telegram, icon: "fab fa-telegram", url: "http://t.me/teamosh"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
