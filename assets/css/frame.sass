@@ -29,43 +29,6 @@ body > footer
   background-position: center
   height: 75px // Adjust height as needed
 
-// Background images for the left and right sides
-body::before, body::after
-  content: ""
-  position: fixed
-  top: 0
-  width: 20%
-  height: 100vh
-  background-size: cover
-  background-position: center
-  z-index: -1
-
-body::before
-  left: 0
-  background-image: url('/assets/images/pair1_left_side.jpg')
-
-body::after
-  right: 0
-  background-image: url('/assets/images/pair2_right_side.jpg')
-
-// Sidebar Styling (Left)
-aside.sidebar-left
-  width: 250px
-  height: 100vh
-  position: fixed
-  top: 0
-  left: 0
-  overflow-y: auto // Enable scrolling if needed
-
-// Sidebar Styling (Right)
-aside.sidebar-right
-  width: 250px
-  height: 100vh
-  position: fixed
-  top: 0
-  right: 0
-  overflow-y: auto // Enable scrolling if needed
-
 // Adjust content area to avoid overlap
 main
   margin-left: 260px
