@@ -10,43 +10,51 @@ html
 body
   box-shadow: 0 0 .3em lighten($dark, 65%)
 
-// Header Styling
 body > header, body > footer
   background: lighten($dark, 5%)
   color: $light
 
-// Add a background image to the header
+// Header Styling
 body > header
-  background-image: url('/assets/images/header.gif') // Adjust path if needed
+  background-image: url('/assets/images/header.gif')
   background-size: cover
   background-position: center
-  height: 75px // Adjust height as needed
+  height: 75px
+
+// Sidebar Container
+.sidebar-container
+  display: flex
+  justify-content: space-between
+  position: fixed
+  top: 0
+  width: 100%
+  height: 100vh
 
 // Sidebar Styling (Left)
-aside.sidebar-left
-  background-image: url('/assets/images/pair1_left_side.jpg') // Left sidebar image
-  background-size: cover
-  background-position: center
+.sidebar-video:first-child
+  position: fixed
+  left: 0
+  top: 0
   width: 250px
   height: 100vh
-  position: fixed
-  top: 0
-  left: 0
-  overflow-y: auto // Enable scrolling if needed
+  background: black
+  display: flex
+  justify-content: center
+  align-items: center
 
 // Sidebar Styling (Right)
-aside.sidebar-right
-  background-image: url('/assets/images/pair2_right_side.jpg') // Right sidebar image
-  background-size: cover
-  background-position: center
+.sidebar-video:last-child
+  position: fixed
+  right: 0
+  top: 0
   width: 250px
   height: 100vh
-  position: fixed
-  top: 0
-  right: 0
-  overflow-y: auto // Enable scrolling if needed
+  background: black
+  display: flex
+  justify-content: center
+  align-items: center
 
-// Adjust content area to avoid overlap
+// Adjust main content
 main
   margin-left: 260px
   margin-right: 260px
@@ -55,7 +63,6 @@ main
   body > header, body > article, body > footer
     padding: 1.75em calc(22% - 6em)
 
-// Dark mode adjustments
 @media (prefers-color-scheme: dark)
   html
     background: darken($dark, 4%)
