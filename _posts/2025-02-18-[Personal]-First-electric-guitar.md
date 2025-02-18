@@ -1,5 +1,5 @@
 ---
-title: "First electric guitar"
+title: "[Personal] First electric guitar"
 layout: post
 ---
 
