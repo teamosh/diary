@@ -1,5 +1,9 @@
-# HTB Titanic
 ---
+title: "[Personal] New Twink Account"
+layout: post
+categories: media
+---
+
 ~~Initially didnt find any subdomains~~, however it was due to using _subfinder_, so pulled up my g named ffuf and got the real deal.
 >![initial enum](titanic_1.png)
 
