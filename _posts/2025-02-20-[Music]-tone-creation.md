@@ -1,4 +1,3 @@
-
 ---
 title:  "[Music] initial tone testing thoughts"
 layout: post
