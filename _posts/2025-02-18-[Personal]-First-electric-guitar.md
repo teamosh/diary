@@ -8,6 +8,4 @@ After waiting for almost 1 month, I finally got (almost) the guitar. Thank god t
 Check out the [Zenmarket][zenmarket] If you want buy the guitar. Great proxy service.
 
 ![alt text](../images/2025-02-18-[Personal]-First-electric-guitar/image.png)
-[zenmarket]: https://zenmarket.jp
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![zenmarket]: https://zenmarket.jp
